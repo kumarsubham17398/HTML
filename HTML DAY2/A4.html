@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html xmlns="http://www3.org//999/xhtml" lang="en">
+	<head>
+  <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Form</title>
+	<title>Registration form</title>
+	<meta charset="UTF-8/">
+	</head>
+	<body>
+		 <ul> 
+		 <li> <a href="#signUp">Sign Up </a></li>
+		 <li><a href="#Registration"> Registration</a></li>
+		 </ul>
+		 </br>
+		<label for="1"> <b>First Name:</b></label>
+		 <input type="text" name="name"placeholder="ENTER FIRST NAME" id="1"/></input>
+		 <br><br>
+		<label><b>Last Name:</b></label>
+		 <input type="text"name="name"placeholder="ENTER LAST NAME"/>
+		<br><br>
+		<label><b>Date of Birth:</b></label>
+		 <input type="date" name="mydate">
+		<br><br>
+		<label> <b>Gender:</b></label>
+		 <input type="radio"name="gender" value="male" id="1">
+		 <label for="1">Male</label>
+   		 <input type="radio"name="gender" value="female">Female</input>
+		 <input type="radio"name="gender" value="other">other</input>
+		<br><br>
+		<label for="Country"id="Country"><b>Choose a country:</b></label>
+		<select autofocus >
+			<option value="india">INDIA</option>
+			<option value="india">PAKISTAN</option>
+			<option value="india">SRILANKA</option>
+			<option value="india">CHINA</option>
+			<option value="india">UAE</option>
+			<option value="india">AMERICA</option>
+			<option value="india">ENGLAND</option>
+			<option value="india">JAPAN</option>
+		</select>
+		<br><br>
+		<label><b>E-mail:</b></label>
+		  <input type="email"name="email"placeholder="ENTER AN EMAIL">
+		<br><br>
+		<label for="phone"><b>Enter Your Phone Number:</b></label>
+          <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+		<br><br>
+		<label><b>Password:</b></label>
+		  <input type="password"name="upass"/>
+		<br><br>
+		<label><b>Confirm Password:</b></label>
+		  <input type="password"name="upass"/>
+		<br><br>
+		<label><input type="checkbox" name="subject"/>I Agree to the Terms of use</label>
+		<br><br>
+	<form action="">
+        <h1>Payment Form</h1>
+        <h2>Payment Information</h2>
+       <p>Card Type:*
+        <select name="card_type"id="card_type" required>
+         <option value="">--Select a Card Type--</option>
+         <option value="visa">Visa</option>
+         <option value="rupay">Rupay</option>
+         <option value="mastercard">Master Card</option>
+        </select>
+       </p>
+       <p>Crad Number:*<input type="number" name="card_number" id="card_number" required></p>
+       <p>
+        Expiry Date:*<input type="date" name="exp_date" id="exp_date" required>
+       </p>
+       <p>CVV:*<input type="password" name="cvv" id="cvv" required></p>
+       <input type="submit" value="pay Now">
+    </form>
+	</form>
+	</br>
+	<ul> 
+		 <li> <a href="#Submit">Submit </a></li>
+		 <li><a href="#Reset"> Reset</a></li>
+		 </ul>
+	</body>
+</html>
+
+
